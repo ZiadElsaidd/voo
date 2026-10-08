@@ -1,5 +1,6 @@
 const { Client } = require('discord.js-selfbot-v13');
 const { joinVoiceChannel, getVoiceConnection } = require('@discordjs/voice');
+require("dotenv").config();
 
 const client = new Client();
 
